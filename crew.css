@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: url(./assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Bellefair', sans-serif;
+    background-size: cover;
+}
+
+nav{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line{
+    position: absolute;
+    left: 220px;
+    width: 45%;
+    height: 1px;
+    background-color: gray;
+    z-index: 100;
+}
+
+.logo{
+    position: absolute;
+    left: 40px;
+}
+
+
+ul{
+    position: absolute;
+    right: 0;
+    padding: 18px 40px;
+    display: flex;
+    backdrop-filter: blur(30px);
+    width: 40%;
+    z-index: 0;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+li a:active{
+    border-bottom: 2px solid rgb(255, 253, 253);
+}
+
+li a:hover {
+    border-bottom: 2px solid rgb(180, 176, 176);
+}
+
+.numbers{
+    font-weight: bold;
+    margin-left: 18px;
+    margin-right: 8px;
+}
+
+.numbers2{
+    font-weight: bold;
+    color: darkslategray;
+    margin-left: 18px;
+    margin-right: 8px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-img img{
+    height: 450px;
+    width: 400px;
+    margin-right: 102px;
+    margin-top: 111px;
+}
+
+.description {
+    margin-top: 60px;
+    padding: 60px 100px;
+}
+
+.description h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 4.72px;
+}
+
+.desc{
+    margin-top: 120px;
+}
+
+.desc h2{
+    font-family: 'Bellefair', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: gray;
+}
+
+.desc h3{
+    font-family: 'Bellefair', sans-serif;
+    font-size: 52px;
+    font-weight: normal;
+    color: white;
+    margin-top: 12px;
+}
+
+.desc p{
+    width: 350px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #D0D6F9;
+    line-height: 24px;
+}
+
+.carousel{
+    margin-top: 24px;
+    width: 26%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle{
+    width: 8px;
+    height: 8px;
+    background-color: gray;
+    border-radius: 100%;
+    color: white;
+}
+
+.circle:hover{
+    background-color: white;
+}

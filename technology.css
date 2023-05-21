@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: url(./assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Bellefair', sans-serif;
+    background-size: cover;
+}
+
+nav{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line{
+    position: absolute;
+    left: 220px;
+    width: 45%;
+    height: 1px;
+    background-color: gray;
+    z-index: 100;
+}
+
+.logo{
+    position: absolute;
+    left: 40px;
+}
+
+
+ul{
+    position: absolute;
+    right: 0;
+    padding: 18px 40px;
+    display: flex;
+    backdrop-filter: blur(30px);
+    width: 40%;
+    z-index: 0;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+li a:active{
+    border-bottom: 2px solid rgb(255, 253, 253);
+}
+
+li a:hover {
+    border-bottom: 2px solid rgb(180, 176, 176);
+}
+
+.numbers{
+    font-weight: bold;
+    margin-left: 18px;
+    margin-right: 8px;
+}
+
+.numbers2{
+    font-weight: bold;
+    color: darkslategray;
+    margin-left: 18px;
+    margin-right: 8px;
+}
+
+.description{
+    margin-top: 60px;
+}
+
+.description h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: gray;
+    border: 1px solid darkgray;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+}
+
+.desc p{
+    width: 330px;
+}
