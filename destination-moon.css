@@ -166,3 +166,459 @@ li a:hover {
     color: white;
 }
 
+@media screen and (max-width:640px) {
+    body{
+        background: url(./assets/destination/background-destination-mobile.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        font-family: 'Bellefair', sans-serif;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    nav{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .line{
+       display: none;
+    }
+    
+    .logo{
+        position: absolute;
+        left: 40px;
+    }
+    
+    
+    .links{
+        display: none;
+    }
+    
+    .numbers{
+        font-weight: bold;
+        margin-left: 18px;
+        margin-right: 8px;
+    }
+    
+    .numbers2{
+        font-weight: bold;
+        color: darkslategray;
+        margin-left: 18px;
+        margin-right: 8px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-top: -4rem;
+    }
+    
+    .content h1{
+        margin-left: 7rem;
+        margin-top: 100px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 4.72px;
+    }
+    
+    .hero{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .photo{
+        padding: 20px 250px;
+    }
+    
+    .photo img{
+        height: 170px;
+        width: 170px;
+        margin-left: -4.5rem;
+    }
+    
+    .tabs ul{
+        padding: 18px 40px;
+        display: flex;
+        width: 40%;
+        margin-left: 5rem;
+        gap: 2rem;
+    }
+    
+    .tab-content h1{
+        font-family: 'Bellefair', sans-serif;
+        font-size: 56px;
+        margin-left: 0rem;
+    }
+    
+    .tab-content{
+        margin-top: -140px;
+        padding: 50px 90px;
+        margin-left: 4.5rem;
+    }
+    
+    .tab-content p{
+        font-family: 'Barlow', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        color: #D0D6F9;
+        width: 320px;
+        margin-left: -50px;
+    }
+    
+    .stats{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .small-line{
+        margin-left: -52px;
+        margin-top: 44px;
+        width: 120%;
+        height: 1px;
+        background-color: gray;
+    }
+    
+    .stat{
+        display: flex;
+        flex-direction: column;
+        margin-left: 16em;
+        margin-top: 1.5em;
+    }
+    
+    .stat h2{
+        margin-left: -52px;
+        font-family: 'Barlow Condensed',sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        color: #D0D6F9;
+    }
+    
+    .stat p{
+        font-family: 'Bellefair', sans-serif;
+        font-weight: normal;
+        font-size: 28px;
+        margin-top: 6px;
+        color: white;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:1300px) {
+    body{
+        background: url(./assets/destination/background-destination-tablet.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        font-family: 'Bellefair', sans-serif;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    nav{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul{
+        position: absolute;
+        right: 0;
+        padding: 24px 40px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #151823;
+        backdrop-filter: blur(30px);
+        width: 50%;
+        z-index: 0;
+    }
+
+    .numbers{
+        display: none;
+    }
+
+    .line{
+        display: none;
+    }
+    
+    .numbers2{
+        font-weight: bold;
+        color: darkslategray;
+        margin-left: 18px;
+        margin-right: 8px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-top: -4rem;
+    }
+    
+    .content h1{
+        margin-left: 7rem;
+        margin-top: 100px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 4.72px;
+    }
+    
+    .hero{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .photo{
+        padding: 20px 250px;
+    }
+    
+    .photo img{
+        height: 170px;
+        width: 170px;
+        margin-left: -4.5rem;
+    }
+    
+    .tabs ul{
+        padding: 18px 40px;
+        display: flex;
+        width: 40%;
+        margin-left: 5rem;
+        gap: 2rem;
+    }
+    
+    .tab-content h1{
+        font-family: 'Bellefair', sans-serif;
+        font-size: 56px;
+        margin-left: 0rem;
+    }
+    
+    .tab-content{
+        margin-top: -140px;
+        padding: 50px 90px;
+        margin-left: 4.5rem;
+    }
+    
+    .tab-content p{
+        font-family: 'Barlow', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        color: #D0D6F9;
+        width: 320px;
+        margin-left: -50px;
+    }
+    
+    .stats{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .small-line{
+        margin-left: -52px;
+        margin-top: 44px;
+        width: 120%;
+        height: 1px;
+        background-color: gray;
+    }
+    
+    .stat{
+        display: flex;
+        flex-direction: column;
+        margin-left: 16em;
+        margin-top: 1.5em;
+    }
+    
+    .stat h2{
+        margin-left: -52px;
+        font-family: 'Barlow Condensed',sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        color: #D0D6F9;
+    }
+    
+    .stat p{
+        font-family: 'Bellefair', sans-serif;
+        font-weight: normal;
+        font-size: 28px;
+        margin-top: 6px;
+        color: white;
+    }
+}
+
+@media screen and (min-width:1300px) and (max-width:1560px) {
+    body{
+        background: url(./assets/destination/background-destination-desktop.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        font-family: 'Bellefair', sans-serif;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    nav{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .line{
+        position: absolute;
+        left: 220px;
+        width: 45%;
+        height: 1px;
+        background-color: gray;
+        z-index: 100;
+    }
+    
+    .logo{
+        position: absolute;
+        left: 40px;
+    }
+    
+    
+    .links{
+        position: absolute;
+        right: 0;
+        padding: 18px 40px;
+        display: flex;
+        backdrop-filter: blur(30px);
+        width: 40%;
+        z-index: 0;
+    }
+    
+    li{
+        list-style: none;
+    }
+    
+    li a{
+        font-family: 'Barlow Condensed', sans-serif;
+        text-decoration: none;
+        color: white;
+        margin-right: 15px;
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+    
+    li a:active{
+        border-bottom: 2px solid rgb(255, 253, 253);
+    }
+    
+    li a:hover {
+        border-bottom: 2px solid rgb(180, 176, 176);
+    }
+    
+    .numbers{
+        font-weight: bold;
+        margin-left: 18px;
+        margin-right: 8px;
+    }
+    
+    .numbers2{
+        font-weight: bold;
+        color: darkslategray;
+        margin-left: 18px;
+        margin-right: 8px;
+    }
+    
+    .content h1{
+        margin-left: 200px;
+        margin-top: 100px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: normal;
+        font-size: 28px;
+        letter-spacing: 4.72px;
+    }
+    
+    .hero{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .photo{
+        padding: 40px 250px;
+    }
+    
+    .photo img{
+        height: 300px;
+        width: 300px;
+        
+    }
+    
+    .tabs ul{
+        padding: 18px 40px;
+        display: flex;
+        width: 40%;
+    }
+    
+    .tab-content h1{
+        font-family: 'Bellefair', sans-serif;
+        font-size: 100px;
+        margin-left: -60px
+    }
+    
+    .tab-content{
+        margin-top: -140px;
+        padding: 50px 90px;
+    }
+    
+    .tab-content p{
+        font-family: 'Barlow', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        color: #D0D6F9;
+        width: 350px;
+        margin-left: -50px;
+    }
+    
+    .stats{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .small-line{
+        margin-left: -52px;
+        margin-top: 44px;
+        width: 56%;
+        height: 1px;
+        background-color: gray;
+    }
+    
+    .stat{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .stat h2{
+        margin-left: -52px;
+        font-family: 'Barlow Condensed',sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        color: #D0D6F9;
+    }
+    
+    .stat p{
+        font-family: 'Bellefair', sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        margin-top: 6px;
+        color: white;
+    }
+}
